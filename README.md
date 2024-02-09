@@ -30,7 +30,7 @@ end
 
 def deps do
   [
-    {:slack, "~> 0.23.6"}
+    {:slack, git: "https://github.com/fuziontech/Elixir-Slack.git", tag: "v0.23.6"}
   ]
 end
 ```
